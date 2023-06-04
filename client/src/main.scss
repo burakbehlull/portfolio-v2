@@ -1,0 +1,26 @@
+@import './assets/sass/Helpers/variables';
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    header{
+        nav{
+            ul{
+                display: flex;
+                list-style-type: none;
+                gap: 15px;
+                li{
+                    text-decoration: none;
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
