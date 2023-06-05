@@ -1,0 +1,30 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4,h5, h6, p {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+}
+
+//Semantic Web Elements
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}

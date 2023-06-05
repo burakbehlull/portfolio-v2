@@ -1,12 +1,5 @@
+@import './assets/sass/base/reset';
 @import './assets/sass/Helpers/variables';
-
-* {
-    border: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
     padding: 2em 5em;
 }
