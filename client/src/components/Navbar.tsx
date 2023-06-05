@@ -1,9 +1,17 @@
+import React from "react";
 
-export default function Navbar(){
+const Navbar : React.FC = ()=>{
     return(
-        <>
-            <h1>Navbar</h1>
-        </>
+        <nav>
+            <ul>
+                <li className='tag'>I'm Buvak</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     )
 }
+
+export default Navbar
 

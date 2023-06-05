@@ -1,0 +1,20 @@
+nav{
+    height: 100%;
+    ul{
+        height: 100%;
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        li{
+            &:nth-child(1){
+                margin-right: auto;
+
+            }
+
+            text-decoration: none;
+            a{
+                color: #000;
+            }
+        }
+    }
+}
