@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './main.scss'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import WaveBar from './layout/WaveBar'
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
 
       <main>
         <Header />
+        <WaveBar />
       </main>
     </div>
   )

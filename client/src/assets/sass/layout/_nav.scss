@@ -8,10 +8,12 @@ nav{
         li{
             &:nth-child(1){
                 margin-right: auto;
+                font-size: 1.4rem;
 
             }
             a{
                 color: #000;
+                font-weight: 400;
             }
         }
     }
