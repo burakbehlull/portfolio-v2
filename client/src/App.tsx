@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './main.scss'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
-import WaveBar from './layout/WaveBar'
 import {Helmet} from 'react-helmet'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
       <main>
         <Header />
-        <WaveBar />
+        <Projects />
       </main>
     </div>
   )
