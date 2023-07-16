@@ -11,6 +11,11 @@ nav{
                 font-size: 1.4rem;
 
             }
+            &.themeMode{
+                img {
+                    cursor: pointer;
+                }
+            }
             a{
                 color: #000;
                 font-weight: 400;
