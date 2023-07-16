@@ -6,10 +6,10 @@ nav{
 
         gap: 15px;
         li{
+
             &:nth-child(1){
                 margin-right: auto;
                 font-size: 1.4rem;
-
             }
             &.themeMode{
                 img {
@@ -17,7 +17,7 @@ nav{
                 }
             }
             a{
-                color: #000;
+                color: #0a0a0a;
                 font-weight: 400;
             }
         }

@@ -1,4 +1,10 @@
 &#projects{
     height: calc(80vh);
     background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    // justify-content: center;
+    text-align: center;
 }

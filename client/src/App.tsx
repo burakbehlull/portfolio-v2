@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './main.scss'
+import React from 'react'
+import { Helmet } from 'react-helmet'
+
 import Navbar from './components/Navbar'
 import Header from './components/Header'
-import {Helmet} from 'react-helmet'
 import Projects from './components/Projects'
 
-import {ThemeProvider} from './context/ThemeContext'
+import { ThemeProvider } from './context/ThemeContext'
+import './main.scss'
 
-function App() {
+const App : React.FC = () => {
 
   return (
     <>
