@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from "react";
-
+import React from "react";
 import Dark from '../assets/dark.svg'
 import Light from '../assets/light.svg'
 
-
+import {useTheme} from '../context/ThemeContext'
 
 const Navbar : React.FC = ()=>{
 
-    const [theme, setTheme] = useState<string>(localStorage.getItem('theme') || 'light')
 
-    useEffect(()=>{
-        localStorage.setItem('theme', theme)
-    }, [theme])
+    const {theme, setTheme} = useTheme()
 
     return(
         <nav>
