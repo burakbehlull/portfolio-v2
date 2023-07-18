@@ -1,4 +1,43 @@
 &#header{
     height: calc(80vh);
-    background-color: red;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    .header-space{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 4rem;
+        .header-text-box{
+            flex: 1 50%;
+            width: 110vh;
+            margin-top: 2em;
+            h1{
+                color: $textColor;
+                font-size: 4rem;
+                font-weight: 600;
+            }
+            h2 {
+                margin-top: .2rem;
+                color: $animationText;
+                font-size: 2.5rem;
+                font-weight: 600;
+            }
+            h3{
+                margin-top: 2.5rem;
+                color: $descText;
+                font-size: 1.4rem;
+            }
+        }
+        .header-image-box{
+            flex: 1 50%;
+            width: 70%;
+            img{
+                width: 110%;
+            }
+        }
+    }
 }
