@@ -24,7 +24,7 @@ z-index: 1;
 interface colorTypes {
     purple?: any;
     lg?:any;
-    bold?:any;
+    bold?: any;
 }
 
 export const Button = styled.button<colorTypes>`
