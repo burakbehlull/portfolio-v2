@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProjectTypes} from './Projects'
+import Projects, {ProjectTypes} from './Projects'
 
 interface IProps {
     props: ProjectTypes;
@@ -18,4 +18,4 @@ const Project : React.FC<IProps> = ({props}) => {
     )
 }
 
-export default Project
+export default React.memo(Project)
