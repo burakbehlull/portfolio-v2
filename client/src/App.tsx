@@ -4,13 +4,11 @@ import { Helmet } from 'react-helmet'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Projects from './components/Projects'
-import {ToolTip} from './styled/index'
 
 import { ThemeProvider } from './context/ThemeContext'
 import './main.scss'
 
 const App : React.FC = () => {
-
   return (
     <>
       <Helmet>
@@ -26,7 +24,6 @@ const App : React.FC = () => {
           <main>
             <Header />
             <Projects />
-            <ToolTip content='xd'>selam</ToolTip>
           </main>
         </div>
       </ThemeProvider>

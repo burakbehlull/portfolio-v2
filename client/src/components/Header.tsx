@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 import HumanVector from '../assets/human-vector.svg'
 import {Button} from '../styled/index'
+
 const Header : React.FC = () =>{
     return(
         <section id="header">
@@ -28,8 +29,6 @@ const Header : React.FC = () =>{
                 <div className="header-image-box">
                     <img src={HumanVector} alt="Developer Man" />
                 </div>
-
-
             </div>
         </section>
     )
