@@ -1,6 +1,5 @@
 &#projects{
     height: calc(100vh);
-    // background-color: blue;
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -14,8 +13,6 @@
     .projects{
         height: 100%;
         padding:2.5rem 5rem 2rem 6rem;
-        //top, right, bottom, left
-        // background-color: red;
         .projects-head{
             ul{
                 display: flex;
@@ -41,18 +38,17 @@
             flex-wrap: wrap;
             gap: 3rem;
             overflow: hidden;
-            // width: 80vw;
 
             div{
-                height: 30vh;
-                width: 19rem;
+                // height: 30vh;
+                width: 16rem;
 
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
 
-                padding: .5rem;
+                padding: 1rem;
 
                 border: 1px solid #94a3b8;
                 border-radius: 10px;

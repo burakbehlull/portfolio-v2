@@ -1,9 +1,10 @@
 * {
     border: none;
+    outline: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
     line-height: calc(1em + 0.725rem);
 }
 
