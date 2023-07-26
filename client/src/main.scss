@@ -9,6 +9,9 @@
 
 body{
     padding: 2em 6em;
+    @media (max-width: 640px){
+        padding: 2rem 3rem;
+    }
 }
 
 .App{
@@ -21,7 +24,6 @@ body{
 
         section{
             @import './assets/sass/pages/header';
-            @import './assets/sass/pages/projects';
         }
     }
 }
