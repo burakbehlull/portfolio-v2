@@ -1,11 +1,17 @@
 import React from 'react'
+
 import {BrowserRouter } from 'react-router-dom'
 import Routes from './router/routes'
+
+import { ThemeProvider } from './context/ThemeContext'
+
 const App : React.FC = () => {
 
     return(
         <BrowserRouter>
-            <Routes />
+			<ThemeProvider>
+				<Routes />
+			</ThemeProvider>
         </BrowserRouter>
     )
 }

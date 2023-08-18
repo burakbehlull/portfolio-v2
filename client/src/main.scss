@@ -1,10 +1,21 @@
 @import './assets/sass/base/reset';
 @import './assets/sass/Helpers/variables';
 
+.dark {
+	
+}
+
 :root{
     font-family: 'Jost', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Rubik', sans-serif;
+	&:has(.dark){
+		filter: invert(1);
+	}
+}
+
+.no-invert {
+		filter: invert(1);
 }
 
 body{
@@ -12,18 +23,21 @@ body{
     @media (max-width: 640px){
         padding: 2rem 3rem;
     }
+	background: white; 
 }
 
-.App{
+
+.App{	
+
     header{
         height: 100%;
         @import './assets/sass/layout/nav';
     }
-
     main{
 
         section{
             @import './assets/sass/pages/header';
         }
     }
+	
 }

@@ -22,9 +22,10 @@
                 font-size: 4rem;
                 font-weight: 600;
             }
-            h2 {
+
+            h2 {				
                 margin-top: .2rem;
-                color: $animationText;
+				color: $animationText;
                 font-size: 2.3rem;
                 font-weight: 600;
             }
@@ -45,6 +46,7 @@
 
 
             img{
+				filter: invert(1);
                 width: calc(95% + 3em);
                 height: 100%;
             }
@@ -54,9 +56,7 @@
     @media (max-width: 640px){
 
         margin-top: 4em;
-
         display: flex;
-
         .header-space{
             display: flex;
             flex-direction: column;

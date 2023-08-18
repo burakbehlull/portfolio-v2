@@ -14,11 +14,10 @@ const Navbar : React.FC = ()=>{
             <ul>
                 <li className='tag'>I'm Buvak</li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
 
-                <li onClick={()=> setTheme(theme==='light'?'dark' : 'light')} className="themeMode">
-                    {theme==='light' ? <img src={Light} /> : <img src={Dark} />}
+                <li onClick={()=> setTheme(theme==='light'? 'dark' : 'light')} className="no-invert">
+                    {theme==='light' ? <img src={Light} className="no-invert" /> : <img src={Dark} className="no-invert" />}
                 </li>
             </ul>
         </nav>

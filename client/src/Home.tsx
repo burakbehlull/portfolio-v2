@@ -3,19 +3,22 @@ import { Helmet } from 'react-helmet'
 
 import Navbar from './components/Navbar'
 import Header from './components/Header'
-
-import { ThemeProvider } from './context/ThemeContext'
 import './main.scss'
 
+import {useTheme} from './context/ThemeContext'
+
+
+
 const Home : React.FC = () => {
+  const {theme} = useTheme()
   return (
     <>
       <Helmet>
         <title>I'm Buvak Portfolio</title>
       </Helmet>
 
-      <ThemeProvider>
-        <div className="App">
+
+        <div className={`App ${theme}`}>
           <header>
             <Navbar />
           </header>
@@ -23,8 +26,7 @@ const Home : React.FC = () => {
           <main>
             <Header />
           </main>
-        </div>
-      </ThemeProvider>
+		</div>
     </>
   )
 }
